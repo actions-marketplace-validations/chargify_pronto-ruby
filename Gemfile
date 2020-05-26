@@ -4,7 +4,7 @@
 source 'https://rubygems.org'
 
 gem 'pronto', '~> 0.10'
-gem 'pronto-rubocop', '~> 0.10'
+gem 'pronto-rubocop', git: 'https://github.com/chargify/pronto-rubocop.git'
 gem 'pronto-brakeman', '~> 0.10'
 gem 'pronto-bundler_audit', '~> 0.6'
 gem 'pronto-eslint_npm', '~> 0.10'

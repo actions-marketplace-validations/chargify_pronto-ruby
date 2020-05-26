@@ -1,6 +1,6 @@
-name: Pronto Ruby
+name: Pronto Ruby by Chargify
 author: jbielick@adwerx.com
-description: Your all-in-one Pronto ruby code review automation.
+description: Your all-in-one Pronto ruby code review automation. Forked by Chargify to leverage newest rubocop.
 branding:
   icon: code
   color: red
@@ -23,7 +23,7 @@ inputs:
       origin/master
 runs:
   using: docker
-  image: "docker://docker.io/adwerx/pronto-ruby:3.0"
+  image: "docker://docker.io/chargifyhub/pronto-ruby:1.0"
   args:
     - run
     - -r
