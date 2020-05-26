@@ -1,3 +1,11 @@
+## This is fork of a pronto-ruby
+
+The main reason being that as of May 2020 the [original pronto-ruby action](https://github.com/marketplace/actions/pronto-ruby) is no longer maintained and Chargify requires rubocop in ~> 0.80 version. 
+**This action might not work as intended, use with caution**.
+
+
+## Original readme
+
 Your all-in-one ruby Pronto runner.
 
 This [GitHub Action](https://github.com/features/actions) runs [Pronto](https://github.com/prontolabs/pronto) [runners](https://github.com/prontolabs/pronto#runners) on your Ruby project diffs and reports back with a [GitHub Check Run](https://developer.github.com/apps/quickstart-guides/creating-ci-tests-with-the-checks-api/).
